@@ -1,0 +1,19 @@
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.page-header {
+  border-bottom: 1px solid#ececec;
+}
+
+.header-item {
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  position: relative;
+
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
+}

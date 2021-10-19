@@ -1,0 +1,46 @@
+.client-list {
+  display: flex;
+  justify-content: center;
+}
+.logo-item {
+  width: 170px;
+  height: 92px;
+
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  transition-property: border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.logo-link {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: #afb1b8;
+}
+
+.logo-icon {
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.logo-link:hover .logo-icon,
+.logo-link:focus .logo-icon {
+  fill: var(--accent-color);
+}
+
+.logo-item:hover,
+.logo-link:focus {
+  border: 1px solid var(--accent-color);
+}
+
+.logo-item + .logo-item {
+  margin-left: 30px;
+}
