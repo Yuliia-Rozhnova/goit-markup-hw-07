@@ -13,6 +13,11 @@
   transition-property: border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    border: 1px solid var(--accent-color);
+  }
 }
 
 .logo-link {
@@ -20,8 +25,7 @@
   height: 100%;
 
   display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flex();
   fill: #afb1b8;
 }
 
@@ -29,16 +33,11 @@
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.logo-link:hover .logo-icon,
-.logo-link:focus .logo-icon {
-  fill: var(--accent-color);
-}
-
-.logo-item:hover,
-.logo-link:focus {
-  border: 1px solid var(--accent-color);
+  .logo-link:hover &,
+  .logo-link:focus & {
+    fill: var(--accent-color);
+  }
 }
 
 .logo-item + .logo-item {

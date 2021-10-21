@@ -5,8 +5,7 @@
 
   .link {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex();
 
     color: var(--basic-text-color);
 

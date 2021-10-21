@@ -21,8 +21,7 @@
   position: absolute;
 
   display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex();
 
   width: 30px;
   height: 30px;

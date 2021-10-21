@@ -18,21 +18,23 @@
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-items .title {
-  color: var(--text-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  text-align: center;
-  margin-bottom: 10px;
+.team-items {
+  .title {
+    color: var(--text-color);
+    @include font(500, 16px, 1.18);
+    text-align: center;
+    margin-bottom: 10px;
+  }
 }
 
-.team-items .text {
-  color: var(--text-color);
-  font-size: 16px;
-  line-height: 1.18;
-  text-align: center;
-  margin-bottom: 16px;
+.team-items {
+  .text {
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    margin-bottom: 16px;
+  }
 }
 
 .card-bottom {

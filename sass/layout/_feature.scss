@@ -9,8 +9,7 @@
 
 .icons-item {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flex();
 
   max-width: 270px;
   min-height: 120px;
@@ -26,17 +25,19 @@
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    fill: var(--accent-color);
+  }
 }
 
-.feature-icon:hover {
-  fill: var(--accent-color);
-}
-
-.feature-items .title {
-  color: var(--text-color);
-  font-weight: 700;
-  font-size: inherit;
-  line-height: 1.14;
-  text-transform: uppercase;
-  margin-bottom: 10px;
+.feature-items {
+  .title {
+    color: var(--text-color);
+    font-weight: 700;
+    font-size: inherit;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
 }
