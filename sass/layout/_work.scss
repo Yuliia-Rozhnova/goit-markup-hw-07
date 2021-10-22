@@ -5,7 +5,7 @@
   display: flex;
   margin-left: calc(-1 * var(--card-set-marg));
 }
-.work-items {
+.work__items {
   position: relative;
   flex-basis: calc(100% / 3 - var(--card-set-marg));
   margin-left: var(--card-set-marg);

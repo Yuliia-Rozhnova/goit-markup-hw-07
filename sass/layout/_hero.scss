@@ -15,7 +15,7 @@
   background-size: cover;
 }
 
-.hero-title {
+.hero__title {
   color: var(--text-white-color);
   @include font(900, 44px, 1.36);
   letter-spacing: 0.06em;

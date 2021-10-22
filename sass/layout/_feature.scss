@@ -2,7 +2,7 @@
   display: flex;
 }
 
-.feature-content:not(:last-child) {
+.feature-items__content:not(:last-child) {
   margin-right: var(--card-set-marg);
   max-width: 270px;
 }
@@ -18,7 +18,7 @@
   border-radius: 4px;
 }
 
-.feature-icon {
+.icons-item__feature {
   width: 70px;
   height: 70px;
 

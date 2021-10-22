@@ -8,6 +8,7 @@
     @include flex();
 
     color: var(--basic-text-color);
+    margin-right: 30px;
 
     transition-property: color;
     transition-duration: 250ms;
@@ -20,7 +21,7 @@
   }
 }
 
-.icon-envelop {
+.auth-nav__envelop {
   fill: var(--basic-text-color);
   margin-right: 10px;
 
@@ -34,7 +35,7 @@
   }
 }
 
-.icon-smart {
+.auth-nav__smart {
   fill: var(--basic-text-color);
   margin-right: 10px;
 

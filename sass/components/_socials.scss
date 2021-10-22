@@ -1,4 +1,4 @@
-.social-item {
+.social-list__item {
   width: 44px;
   height: 44px;
 
@@ -6,7 +6,7 @@
     margin-left: 10px;
   }
 }
-.social-link {
+.social-list__link {
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -26,13 +26,13 @@
   }
 }
 
-.social-icon {
+.social-list__icon {
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-  .social-link:hover &,
-  .social-link:focus & {
+  .social-list__link:hover &,
+  .social-list__link:focus & {
     fill: var(--basic-bg-color);
   }
 }
