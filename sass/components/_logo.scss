@@ -1,4 +1,4 @@
-.logo {
+.header-container__logo {
   display: block;
   color: var(--accent-color);
   text-decoration: none;
@@ -8,15 +8,15 @@
   margin-right: 93px;
 }
 
-.logo-studio {
+.header-container__logo-studio {
   color: #000000;
 }
 
-.logo-white {
+.contact-container__logo_color_white {
   color: var(--text-white-color);
 }
 
-.logo-bottom {
+.contact-container__logo {
   margin-right: 0;
   margin-bottom: 20px;
 }
