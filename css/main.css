@@ -807,7 +807,7 @@ img {
   overflow: hidden;
 }
 
-.text-overlay {
+.portfolio-list__text-overlay {
   position: absolute;
   font-size: 18px;
   line-height: 1.56;
@@ -822,8 +822,8 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-list__link:hover .text-overlay,
-.portfolio-list__link:focus .text-overlay {
+.portfolio-list__link:hover .portfolio-list__text-overlay,
+.portfolio-list__link:focus .portfolio-list__text-overlay {
   transform: translate(0);
 }
 /*# sourceMappingURL=main.css.map */
