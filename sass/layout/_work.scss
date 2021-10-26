@@ -1,7 +1,7 @@
-.section-work {
+.work {
   padding-top: 0;
 }
-.work {
+.work__list {
   display: flex;
   margin-left: calc(-1 * var(--card-set-marg));
 }
@@ -11,7 +11,7 @@
   margin-left: var(--card-set-marg);
 }
 
-.label {
+.work__label {
   position: absolute;
   bottom: 0;
   padding-top: 27px;

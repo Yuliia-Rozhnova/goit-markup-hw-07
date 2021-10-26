@@ -25,7 +25,7 @@
   margin-bottom: 30px;
 }
 
-.primary {
+.hero__btn {
   background-color: var(--accent-color);
   color: var(--text-white-color);
   font-weight: 700;
@@ -42,14 +42,10 @@
   transition-property: color, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.button {
-  .primary {
-    &:hover,
-    &:focus {
-      background-color: var(--accent-color);
-      color: var(--text-white-color);
-    }
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    color: var(--text-white-color);
   }
 }

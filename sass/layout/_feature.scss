@@ -1,13 +1,15 @@
-.feature-items {
+.feature__list {
   display: flex;
 }
 
-.feature-items__content:not(:last-child) {
-  margin-right: var(--card-set-marg);
-  max-width: 270px;
+.feature__item {
+  &:not(:last-child) {
+    margin-right: var(--card-set-marg);
+    max-width: 270px;
+  }
 }
 
-.icons-item {
+.feature__icon {
   display: flex;
   @include flex();
 
@@ -18,7 +20,7 @@
   border-radius: 4px;
 }
 
-.icons-item__pic {
+.feature__img {
   width: 70px;
   height: 70px;
 
@@ -31,13 +33,11 @@
   }
 }
 
-.feature-items {
-  .title {
-    color: var(--text-color);
-    font-weight: 700;
-    font-size: inherit;
-    line-height: 1.14;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-  }
+.feature__title {
+  color: var(--text-color);
+  font-weight: 700;
+  font-size: inherit;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-bottom: 10px;
 }

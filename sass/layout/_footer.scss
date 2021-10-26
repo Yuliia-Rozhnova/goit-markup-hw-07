@@ -6,12 +6,16 @@
   padding-bottom: 60px;
 }
 
-.contact-wrap {
+.footer__container {
+  display: flex;
+}
+
+.footer__contact-wrap {
   display: flex;
   align-items: baseline;
 }
 
-.contact-container {
+.footer__address {
   max-width: 231px;
   margin-right: 70px;
 }
@@ -20,11 +24,11 @@
   margin-right: 93px;
 }
 
-.contact-item:not(:last-child) {
+.footer__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.contact__footer-address {
+.footer__contact-address {
   color: var(--text-white-color);
   text-decoration: none;
   font-style: normal;
@@ -37,7 +41,7 @@
   }
 }
 
-.contact__footer-contacts {
+.footer__mail {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-style: normal;
@@ -50,12 +54,12 @@
   }
 }
 
-.footer-list {
+.footer__list {
   display: flex;
   @include flex();
 }
 
-.footer-form__title {
+.footer__title {
   font-style: normal;
   @include font(700, 14px, 1.14);
 
@@ -64,19 +68,15 @@
   margin-bottom: 20px;
 }
 
-.footer-link {
+.footer__link {
   background: rgba(255, 255, 255, 0.1);
 }
 
-.container-footer {
-  display: flex;
-}
-
-.form-set {
+.footer__form-set {
   display: flex;
   width: 570px;
 }
-.form-set__email {
+.footer__form-email {
   width: 358px;
   min-height: 50px;
   margin-right: 12px;
@@ -92,7 +92,7 @@
   letter-spacing: 0.03em;
 }
 
-.form-set__button {
+.footer__button {
   width: 200px;
   min-height: 50px;
   font-weight: 700;
@@ -105,7 +105,7 @@
   border-radius: 4px;
 }
 
-.form-set__icon-send {
+.footer__icon-send {
   width: 24px;
   height: 24px;
   margin-left: 10px;
