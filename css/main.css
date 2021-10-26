@@ -596,18 +596,18 @@ img {
   fill: #afb1b8;
 }
 
-.client__icon {
+.client-list__icon {
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client__link:hover .client__icon,
-.client__link:focus .client__icon {
+.client-list__link:hover .client-list__icon,
+.client-list__link:focus .client-list__icon {
   fill: var(--accent-color);
 }
 
-.client__item + .client__item {
+.client-list__item + .client-list__item {
   margin-left: 30px;
 }
 
@@ -632,7 +632,7 @@ img {
   margin-right: 70px;
 }
 
-.soc-container {
+.footer__soc-container {
   max-width: 206px;
   margin-right: 93px;
 }
@@ -756,7 +756,7 @@ img {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.images-items {
+.portfolio-list {
   display: flex;
   flex-wrap: wrap;
   margin-left: calc(-1 * var(--card-set-marg));
@@ -766,7 +766,7 @@ img {
   line-height: 1.87;
 }
 
-.images-items-title {
+.portfolio-list__title {
   color: var(--text-color);
   font-family: inherit;
   font-weight: 700;
@@ -776,13 +776,13 @@ img {
   margin-bottom: 4px;
 }
 
-.card-set {
+.portfolio-list__item {
   flex-basis: calc(100% / 3 - var(--card-set-marg));
   margin-left: var(--card-set-marg);
   margin-top: var(--card-set-marg);
 }
 
-.link-portfolio {
+.portfolio-list__link {
   display: block;
   text-decoration: none;
   color: var(--basic-text-color);
@@ -791,18 +791,18 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-portfolio:hover, .link-portfolio:focus {
+.portfolio-list__link:hover, .portfolio-list__link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.portfolio-bottom {
+.portfolio-list__bottom {
   padding: 20px 25px 20px 25px;
   background: var(--basic-bg-color);
   border: 1px solid #eeeeee;
   box-sizing: border-box;
 }
 
-.overlay {
+.portfolio-list__overlay {
   position: relative;
   overflow: hidden;
 }
@@ -822,8 +822,8 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-portfolio:hover .text-overlay,
-.link-portfolio:focus .text-overlay {
+.portfolio-list__link:hover .text-overlay,
+.portfolio-list__link:focus .text-overlay {
   transform: translate(0);
 }
 /*# sourceMappingURL=main.css.map */
